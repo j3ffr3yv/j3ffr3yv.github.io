@@ -285,7 +285,7 @@ span{
 }
 
 .education-row .education-col{
-    flex: 1 1 40rem;
+    flex: 1 1 0rem;
 }
 
 .education-col .title{
@@ -310,7 +310,7 @@ span{
     width: 2rem;
     height: 2rem;
     background: red;
-    border-radius: 500%;
+    border-radius: 100%;
 }
 
 .education-content .content{
@@ -352,9 +352,20 @@ span{
     font-size: 2rem;
 }
 
+.education-content .content .dTitle{
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
 .education-content .content p{
     font-size: 1.6rem;
     padding-top: .5rem;
+}
+
+.education-content .content .pTitle{
+    padding-top: 3rem;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .skills{
