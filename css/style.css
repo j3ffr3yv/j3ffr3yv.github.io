@@ -599,6 +599,12 @@ span{
     }
 }
 
+@media (max-width: 520px) {
+    html{
+        font-size: 50%;
+    }
+}
+
 @keyframes homeBgText{
     0%,10%,100%{
         background-position: -37rem 0;
