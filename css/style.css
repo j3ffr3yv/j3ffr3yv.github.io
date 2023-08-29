@@ -406,7 +406,7 @@ span{
 
 .contact{
     min-height: auto;
-    padding-bottom: 60rem;
+    padding-bottom: 20rem;
 }
 
 .contact form{
@@ -602,6 +602,11 @@ span{
 @media (max-width: 520px) {
     html{
         font-size: 50%;
+    }
+
+    .contact{
+        min-height: auto;
+        padding-bottom: 20rem;
     }
 }
 
