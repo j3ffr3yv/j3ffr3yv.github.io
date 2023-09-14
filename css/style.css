@@ -664,6 +664,12 @@ span{
         min-height: auto;
         padding-bottom: 10rem;
     }
+
+    .skills dl{
+        text-align: center;
+    }
+
+
 }
 
 @keyframes homeBgText{
