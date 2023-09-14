@@ -256,7 +256,7 @@ span{
 
 .about-content p{
     font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+    margin: 2rem 1rem 3rem;
 }
 
 .btn-box.btns
@@ -290,7 +290,7 @@ span{
 
 .education-col .title{
     font-size: 2.5rem;
-    margin: 0 0 1.5rem 2rem;
+    margin: 5rem 0 1.5rem 2rem;
 }
 
 .education-col .education-box{
@@ -368,7 +368,8 @@ span{
     font-weight: bold;
 }
 
-.skills{
+.skills,
+.projects{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -377,31 +378,86 @@ span{
     background: var(--bg-color);
 }
 
-.skills .skills-row{
+.skills .skills-row,
+.projects .projects-row{
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
 }
 
-.skills-row .skills-col{
+.skills-row .skills-col,
+.projects-row .projects-col{
     flex: 1 1 40rem;
 }
 
-.skills-col .title{
+.skills-col .title,
+.projects-col .title{
     font-size: 2.5rem;
     margin:  0 0 1.5rem;
 }
 
-.skills-box .skills-content{
+.skills-box .skills-content,
+.projects-box .projects-content {
     position: relative;
     border: .2rem solid red;
     border-radius: .6rem;
     padding: .5rem 1.5rem;
 }
 
-.skills-content h3{
+.skills-content h3,
+.projects-content p{
     font-size: 1.7rem;
     display: flex;
+}
+
+.projects-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projects-img{
+    position: relative;
+    width: 30rem;
+    height: 70rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-img img{
+    width: 90%;
+    height: 90%;
+    border-radius: 9%;
+    border: .2rem solid var(--main-color);
+}
+
+.skills .dt-title{
+    font-size: 3rem;
+    color: var(--text-color);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.skills dl{
+    font-size: 1.6rem;
+    text-align: left;
+    margin-right: 10rem;
+}
+
+.skills dt{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: red;
+}
+
+.skills dd{
+    margin: 0 0 3rem 0;
 }
 
 .contact{
@@ -606,7 +662,7 @@ span{
 
     .contact{
         min-height: auto;
-        padding-bottom: 20rem;
+        padding-bottom: 10rem;
     }
 }
 
