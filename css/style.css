@@ -447,7 +447,7 @@ span{
 .skills dl{
     font-size: 1.6rem;
     text-align: left;
-    margin-right: 10rem;
+    margin-right: 7rem;
 }
 
 .skills dt{
@@ -667,6 +667,7 @@ span{
 
     .skills dl{
         text-align: center;
+        margin: 0 3rem 0 3rem;
     }
 
 
