@@ -378,46 +378,109 @@ span{
     background: var(--bg-color);
 }
 
-.skills .skills-row,
-.projects .projects-row{
+.skills .skills-row{
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
 }
 
-.skills-row .skills-col,
-.projects-row .projects-col{
+.skills-row .skills-col{
     flex: 1 1 40rem;
 }
 
-.skills-col .title,
-.projects-col .title{
+.skills-col .title{
     font-size: 2.5rem;
     margin:  0 0 1.5rem;
 }
 
-.skills-box .skills-content,
-.projects-box .projects-content {
+.skills-box .skills-content{
     position: relative;
     border: .2rem solid red;
     border-radius: .6rem;
     padding: .5rem 1.5rem;
 }
 
-.skills-content h3,
-.projects-content p{
+.skills-content h3{
     font-size: 1.7rem;
     display: flex;
 }
 
-.projects-content
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* Slideshow container */
+.slideshow-container {
+    max-width: 40rem;
+    position: relative;
+    border: .2rem solid red;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  .mySlides .projects-img{
+      width: 37rem;
+      padding-left: 2rem;
+  }
+  
+  .mySlides p{
+      font-size: 1.6rem;
+      text-align: center;
+      padding: 0 3rem 1rem;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(97, 94, 94, 0.459);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 2.5rem;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
     text-align: center;
-}
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
 
 .projects-img{
     position: relative;
@@ -699,4 +762,12 @@ span{
     75%,81%{
         opacity: 0;
     }
+}
+
+* {box-sizing:border-box}
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
