@@ -420,7 +420,7 @@ span{
   
   .mySlides .projects-img{
       width: 37rem;
-      padding-left: 2rem;
+      padding-left: 2.6rem;
   }
   
   .mySlides p{
@@ -433,9 +433,9 @@ span{
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 35rem;
     width: auto;
-    margin-top: -22px;
+    margin-top: -20px;
     padding: 16px;
     color: white;
     font-weight: bold;
